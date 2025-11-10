@@ -22,7 +22,7 @@ Welcome to this C++ learning repository designed for beginners and anyone eager 
 ## Getting Started
 
 1. Clone the repo:  
-   `https://github.com/ft-FiasCode/learnC++.git`
+   `https://github.com/ft-FiasCode/learnCplusplus.git`
 
 2. Compile and run C++ programs using your preferred environment. For example:  
    `g++ filename.cpp -o output`  
