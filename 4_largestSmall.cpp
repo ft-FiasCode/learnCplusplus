@@ -25,4 +25,5 @@ int main() {
     cout << "The sam number in the array is: " << sam << endl;
 
     return 0;
+
 }
