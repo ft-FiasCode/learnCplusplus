@@ -19,3 +19,4 @@ int main() {
     cout << "The sum of array is " << sum << endl;
     return 0;
 }
+
