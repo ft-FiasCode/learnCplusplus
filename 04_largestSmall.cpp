@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int n; 
-    cout << "Enter array size ";
+    cout << "Enter array size:";
     cin >> n;
     int arr[n];
     cout << "Enter " << n << "number" << endl;
@@ -21,9 +21,10 @@ int main() {
             sam = arr[i]; 
         }
     }  
-    cout << "The lar number in the array is: " << lar << endl;
-    cout << "The sam number in the array is: " << sam << endl;
+    cout << "The largest number in the array is: " << lar << endl;
+    cout << "The samllest number in the array is: " << sam << endl;
 
     return 0;
 
 }
+
