@@ -12,7 +12,7 @@ public:
 
     void push(int z) {
         if (top == n - 1) {
-            cout << "Stack is full" << endl;
+            cout << "Stack is full." << endl;
         } else {
             top++;
             stack[top] = z;
@@ -33,7 +33,7 @@ public:
         if (top != -1) {
             return stack[top];
         } else {
-            cout << "Stack is empty" << endl;
+            cout << "Stack is empty." << endl;
             return -1; // Indicate an error
         }
     }
@@ -45,7 +45,7 @@ public:
                 cout << stack[i] << endl;
             }
         } else {
-            cout << "Stack is empty" << endl;
+            cout << "Stack is empty." << endl;
         }
     }
 };
@@ -80,3 +80,4 @@ int main() {
 
     return 0;
 }
+
