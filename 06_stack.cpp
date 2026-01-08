@@ -22,7 +22,7 @@ public:
 
     void pop() {
         if (top == -1) {
-            cout << "Stack is empty" << endl;
+            cout << "Stack is empty." << endl;
         } else {
             cout << "Popped element: " << stack[top] << endl;
             top--;
@@ -80,4 +80,5 @@ int main() {
 
     return 0;
 }
+
 
