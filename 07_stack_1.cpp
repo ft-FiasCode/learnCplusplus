@@ -40,5 +40,6 @@ void pop(struct arrayStack *stack,int item)
 void isFull(struct arrayStack *stack)
 {
 	if(stack->top==stack->capacity-1)
-	printf"stack is full";
+	printf"stack is full.";
 }
+
