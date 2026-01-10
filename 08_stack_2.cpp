@@ -18,10 +18,10 @@ public:
     }
     void push(int newItem) {
         if (isFull()) {
-            cout<<"STACK FULL"<<endl;
+            cout<<"STACK FULL."<<endl;
         } else {
             items[++top]=newItem;
-            cout<<newItem<<" pushed to stack"<<endl;
+            cout<<newItem<<" pushed to stack."<<endl;
         }
     }
     void display() {
@@ -43,3 +43,4 @@ int main() {
     s.display();
     return 0;
 }
+
