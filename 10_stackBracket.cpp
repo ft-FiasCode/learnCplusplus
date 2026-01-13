@@ -74,7 +74,7 @@ public:
         } // end for
         // At this point, all characters have been processed
         if (!theStack.isEmpty()) {
-            cout << "Error: missing right delimiter" << endl;
+            cout << "Error: missing right delimiter." << endl;
         }
     } // end check()
 }; // end class BracketChecker
@@ -99,3 +99,4 @@ int main() {
     } // end while
     return 0;
 } // end main
+
