@@ -61,7 +61,7 @@ public:
 
 string getString() { // Function to read a string from input
     string s;
-    cout << "Enter a string: ";
+    cout << "Enter a string : ";
     getline(cin, s);
     return s;
 }
@@ -80,3 +80,4 @@ int main() {
     } // end while
     return 0;
 } // end main
+
