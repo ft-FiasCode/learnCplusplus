@@ -19,19 +19,19 @@ public:
             front = 0;
             rear = 0;
             arr[rear] = z;
-            cout << arr[rear] << " ENQUEUE at " << rear << endl;
+            cout << arr[rear] << " ENQUEUE at: " << rear << endl;
         } else {
             rear++;
             arr[rear] = z;
-            cout << arr[rear] << " inserted at place " << rear << endl;
+            cout << arr[rear] << " inserted at place: " << rear << endl;
         }
     }
 
     void dequeue() {
         if (front == -1 || front > rear) {
-            cout << "Queue is empty" << endl;
+            cout << "Queue is empty." << endl;
         } else {
-            cout << arr[front] << " DEQUEUE from " << front << endl;
+            cout << arr[front] << " DEQUEUE from: " << front << endl;
 
             // Move the front pointer
             front++;
@@ -45,7 +45,7 @@ public:
 
     void display() {
         if (front == -1) {
-            cout << "Queue is empty" << endl;
+            cout << "Queue is empty." << endl;
         } else {
             cout << "Current Queue: ";
             for (int i = front; i <= rear; i++) {
@@ -74,3 +74,4 @@ int main() {
 
     return 0;
 }
+
